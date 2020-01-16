@@ -53,8 +53,8 @@ source $BUILD_DIR/.profile.d/jvmcommon.sh
 if [ ! -f /tmp/es.pid ]; then
   echo "Starting ElasticSearch..."
   elasticsearch -d -p /tmp/es.pid
-  sleep 50
-  echo "Delay 50"
+  sleep 60
+  echo "Delay 60"
   echo "ElasticSearch Started"
 fi
 EOF
